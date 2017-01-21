@@ -1,0 +1,256 @@
+// main sectionun bashlangici
+#aboutMain{
+  height: 305px;
+  background-color:#f0f0f0;
+    .mainImg{
+      width: 100%;
+      height: 188px;
+        img{
+          width: 100%;
+          height: 100%;
+          -webkit-filter: brightness(55%);
+        }
+        .layer{
+          position: relative;
+          bottom: 16px;
+          width: 100%;
+          height: 10px;
+          -webkit-filter: brightness(100%);
+        }
+    }
+    .aboutdesc{
+      position: relative;
+      bottom:170px;
+      h4{
+        font-size: 43px;
+        color:white;
+        left:0px;
+        display: inline-block;
+        font-style: bold;
+        font-family: arial;
+      }
+      p{
+        color:white;
+        font-size: 17px;
+        margin-top: 0px;
+        font-family: arial;
+      }
+      .weekly{
+        background-size: cover;
+        background: url('../../images/image1.png');
+        width: 190px;
+        height: 28px;
+        margin-right: 70px;
+        margin-top: 20px;
+          p{
+            font-size: 11px;
+            font-family: arial;
+            color:black;
+            margin-left: 20px;
+            margin-top: 8px;
+            transform: rotateY(-41deg);
+          }
+      }
+      h5{
+        color:#ffcc00;
+        font-size: 35px;
+        top: 50px;
+        margin-top: 23px;
+        font-style: bold;
+        font-family: Gotham-Bold;
+        span{
+          color:#e35175;
+          font-size: 22px;
+          text-decoration: line-through;
+          font-style: bold;
+          font-family: Gotham-Bold;
+        }
+      }
+      button{
+        border: 2px solid white;
+        background-color: inherit;
+        color:white;
+        text-transform: uppercase;
+        width: 153px;
+        height: 39px;
+        left:0px;
+        font-family: arial;
+        padding-left: 17px;
+          img{
+            width: 27px;
+            height: 14px;
+            margin-left: 5px;
+            margin-bottom: 2px;
+            -webkit-filter:brightness(100%);
+          }
+      }
+      button:focus{
+        outline: none;
+      }
+    }
+      .aboutSearch{
+        position: absolute;
+        top:250px;
+        // search sectionun bashlangici
+        #search{
+            z-index:1;
+            background: white;
+            padding-top: 30px;
+            min-height: 114px;
+            border-radius: 5px;
+            width: 100%;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=96, Color=#999999)";/*IE 8*/
+            -moz-box-shadow: 1px 10px 50px -9px rgba(153,153,153,0.4);/*FF 3.5+*/
+            -webkit-box-shadow: 1px 10px 50px -9px rgba(153,153,153,0.4);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+            box-shadow: 1px 10px 50px -9px rgba(153,153,153,0.4);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+            filter: progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=135, Color=#999999); /*IE 5.5-7*/
+
+            select:focus{
+                outline: none;
+              }
+            h5{
+              color:black;
+              font-size: 21px;
+              margin-left: 30px;
+              font-weight: 400;
+              margin-bottom: 9px;
+              margin-top: 0px;
+              width: 126px;
+              font-family:Roboto-Medium;
+            }
+            p{
+              font-size: 12px;
+              color:#555555;
+              margin-left: 30px;
+              float: left;
+              font-family: Roboto-Regular;
+            }
+            span{
+              font-size: 13px;
+              color:#555555;
+              font-family: Arial;
+            }
+            .choseCity{
+              width: 196px;
+              height: 45px;
+              background-color: #eeeeee;
+              border:1px solid #c1c1c1;
+              margin-top: 12px;
+              margin-bottom: 25px;
+            }
+            .adult{
+              width: 86px;
+              height: 45px;
+              background-color: #eeeeee;
+              border:1px solid #c1c1c1;
+              margin-top: 12px;
+              margin-bottom: 25px;
+            }
+            .select{
+              margin-top: -45px;
+              padding-left: 40px;
+              .first{
+                position: absolute;
+                top: 48px;
+                right: -7px;
+                color: #999999;
+              }
+              .second{
+                position: absolute;
+                top: 48px;
+                right: 10px;
+                color: #999999;
+              }
+              b{
+                position: absolute;
+                right: -24px;
+                top: 45px;
+                z-index: 1;
+              }
+              input{
+                width: 136px;
+                height: 45px;
+                border:1px solid #c1c1c1;
+                margin-top: 12px;
+                border-radius: 5px;
+                margin-left: 25px;
+              }input:focus{
+                  outline: none;
+                }
+              button{
+                width: 155px;
+                height: 45px;
+                color:white;
+                background-color: #e35175;
+                border:none;
+                font-size: 17px;
+                font-family: Arial;
+                margin-top: 32px;
+                  img{
+                    padding-right: 15px;
+                  }
+              }button:focus{
+                  outline: none;
+                }
+            }
+        }
+        // search sectionun son
+        ul{
+          margin-top: 10px;
+          list-style: none;
+
+          padding-left: 0px;
+            li{
+              float:left;
+              margin-right: 10px;
+                i{
+                  color: #555555;
+                }
+                a{
+                  text-decoration: underline;
+                  font-size: 13px;
+                  font-family: arial;
+                  color:#555555;
+                }
+                .active{
+                  text-decoration: none;
+                  font-weight: bold;
+                }
+            }
+        }
+      }
+}
+// main sectionnun sonu
+
+// aboutHeader sectionun bashlangici
+#aboutHeader{
+  // position: relative;
+  // bottom: 140px;
+  clear: both;
+  height: 500px;
+  // margin-top: 146px;
+    .aboutus{
+      border-bottom: 2px solid #e2e2e2;
+      margin-top: 45px;
+      padding-bottom: 37px;
+      .aboutImage{
+        width: 411px;
+        height: 416px;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+      }
+      .aboutDesc{
+        h6{
+          font-size: 21px;
+          font-family: Roboto-Regular;
+        }
+        p{
+          font-size: 14px;
+          font-family: arial;
+        }
+      }
+    }
+}
+//aboutHeader sectionun sonu

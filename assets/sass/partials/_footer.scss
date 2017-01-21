@@ -1,0 +1,129 @@
+//  footer sectionun bashlangici
+#footer{
+  height: 214px;
+  min-width: 100%;
+  background-color: white;
+    .about{
+      text-align: left;
+      h6{
+        font-size: 15px;
+        font-family: arial;
+        color:#555555;
+        margin-top: 36px;
+        margin-bottom: 16px;
+      }
+      p{
+        font-size: 12px;
+        font-family:Roboto-Regular;
+        color:#555555;
+        margin-bottom: 46px;
+      }
+      span{
+        font-size: 11px;
+        font-family: arial;
+        font-style: italic;
+        color:#cdcdcd;
+      }
+      h5{
+        margin-top: 5px;
+        font-size: 15px;
+        font-family: arial;
+        font-style:bold;
+        font-weight: 600;
+      }
+    }
+    .korporativ{
+      h6{
+        font-size: 14px;
+        font-family:Roboto-Medium;
+        color:#555555;
+        margin-top: 37px;
+        margin-bottom: 17px;
+      }
+      ul{
+        padding-left: 0px;
+        li{
+          list-style: none;
+          a{
+            text-decoration: none;
+            color:#555555;
+            font-size: 12px;
+            font-family:Roboto-Regular;
+          }
+        }
+      }
+    }
+    .elaqe{
+      .nomre{
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      h6{
+        font-size: 15px;
+        font-family:Roboto-Medium;
+        margin-top: 37px;
+        margin-bottom: 15px;
+        color:#555555;
+      }
+      p{
+        color:#555555;
+        font-size: 12px;
+        font-family:Roboto-Regular;
+        color:#5b5b5b;
+        margin-bottom: 0px;
+      }
+    }
+    .onlayn{
+      width: 282px;
+      height: 48px;
+      background-color: #e35175;
+      border-radius: 3px;
+        p{
+          font-size: 16px;
+          font-family: arial;
+          margin-top: 15px;
+          color:white;
+          float: left;
+        }
+        .onlaynImg{
+          width: 38px;
+          height: 38px;
+          margin-top: 7px;
+          margin-left: 15px;
+          margin-right: 12px;
+          float: left;
+            img{
+              width: 100%;
+              height: 100%;
+              border-radius: 100px;
+            }
+        }
+        .plyus{
+          width: 26px;
+          height: 26px;
+          background-color: #92c048;
+          border-radius: 3px;
+          margin-top: 12px;
+          margin-right: 16px;
+        }
+      .cssarrow {
+          	position: relative;
+          	background: #e35175;
+          }
+          .cssarrow:after {
+          	bottom: 100%;
+          	right: 31px;
+          	border: solid transparent;
+          	content: " ";
+          	height: 0;
+          	width: 0;
+          	position: absolute;
+          	pointer-events: none;
+          	border-color: rgba(136, 183, 213, 0);
+          	border-bottom-color: #e35175;
+          	border-width: 8px;
+          	margin-right: 0px;
+          }
+    }
+}
+//footer sectionun sonu

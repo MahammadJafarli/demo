@@ -1,0 +1,176 @@
+#centerIns3{
+  min-height: 620px;
+  margin-top: 30px;
+    .nese{
+        .sliderIns3{
+          height: 570px;
+          background: red;
+        }
+        .mapIns3{
+          background-image: url('../../images/map.png');
+          margin-top: 30px;
+          height: 110px;
+            button{
+              width: 140px;
+              height: 35px;
+              background: #ffcc00;
+              border: 1px solid #bd9b10;
+              border-radius: 3px;
+              font-family: arial;
+              font-size: 13px;
+              margin-top: 37px;
+                i{
+                  margin-right: 5px;
+                }
+            }button:focus{
+              outline: none;
+            }
+        }
+        .elanInfo{
+          margin-left: 8px;
+          .price{
+            h6{
+              font-size: 31px;
+              font-family:Gotham-Medium;
+              color: #57af36;
+              float: left;
+                img{
+                  margin-bottom: 7px;
+                }
+            }
+            p{
+              font-size: 12px;
+              font-family:Roboto-Medium;
+              float: left;
+              text-transform: uppercase;
+              margin-left: 10px;
+              margin-top: 10px;
+                span{
+                  color: #dedede;
+                  font-family:Roboto-Regular;
+                }
+            }
+            button{
+              width: 121px;
+              height: 46px;
+              background: #57af36;
+              color:white;
+              font-size: 17px;
+              // font-family: arial;
+              font-weight: 300;
+              margin-left: 12px;
+            }button:focus{
+              outline: none;
+            }
+          }
+          .elanLocation{
+            clear: both;
+            border-top: 1px solid #ececec;
+            border-bottom: 1px solid #ececec;
+            height: 43px;
+            h6{
+              font-size: 21px;
+              font-family:Roboto-Regular;
+            }
+            p{
+              font-size: 13px;
+              font-family: Calibri;
+              color:#615d5e;
+              margin-top: 12px;
+                img{
+                  margin-right: 5px;
+                }
+            }
+          }
+          .elanDesc{
+            min-height: 119px;
+            border-bottom: 1px solid #ececec;
+            p{
+              font-size: 14px;
+              font-family: arial;
+              margin-top: 18px;
+            }
+          }
+          .info1{
+            min-height: 62px;
+            border-bottom: 1px solid #ececec;
+            clear: both;
+              .box{
+                float: left;
+                width: 128px;
+                height: 34px;
+                border-right: 1px solid #ececec;
+                margin-top: 15px;
+                  h6{
+                    font-size: 31px;
+                    font-family:Gotham-Book;
+                    float: left;
+                    margin-top: 0px;
+                    margin-left: 20px;
+                  }
+                  p{
+                    font-size: 12px;
+                    font-family:Gotham-Book;
+                    color: #656565;
+                    padding-right: 80px;
+                    margin-left: 50px;
+                  }
+              }
+          }
+          .info2{
+            min-height: 375px;
+              .left{
+                margin-top: 20px;
+                padding-left: 0px;
+                ul{
+                  list-style: none;
+                  padding-left: 0px;
+                    li{
+                      font-size: 14px;
+                      font-family: arial;
+                      margin-bottom: 3px;
+                      color:#57af36;
+                        i{
+                          margin-right: 10px;
+                          color:#555555;
+                        }
+                    }
+                }
+              }
+              .right{
+                margin-top: 20px;
+                padding-left: 0px;
+                ul{
+                  list-style: none;
+                  padding-left: 0px;
+                    li{
+                      font-size: 14px;
+                      font-family: arial;
+                      margin-bottom: 3px;
+                        i{
+                          margin-right: 10px;
+                          color:#57af36;
+                        }
+                    }
+                }
+              }
+          }
+          .terms{
+            height: 36px;
+            background-color: #ebeff9;
+            border:1px solid #ccd9f8;
+            margin-bottom: 50px;
+              img{
+                margin-left: 11px;
+                margin-top: 8px;
+              }
+              a{
+                color:black;
+                font-size: 13px;
+                font-family: arial;
+                text-decoration: underline;
+              }
+          }
+        }
+    }
+}

@@ -1,0 +1,369 @@
+// slider sectionun bashlangici
+#slider{
+  height: 317px;
+  width: 100%;
+  margin-bottom: 90px;
+  ol{
+    li{
+      background-color:white ;
+      border: none;
+    }
+    .active{
+      background: #e35175;
+    }
+  }
+  .layer{
+    position: relative;
+    bottom: 17px;
+  }
+  .carousel-indicators{
+    position: absolute;
+    top:240px !important;
+    height: 40px;
+  }
+  .item{
+    height: 317px;
+    width: 100%;
+      img{
+      height: 100%;
+      width: 100%;
+      -webkit-filter: brightness(55%);
+    }
+    .carousel-caption{
+      min-width: 1020px;
+      top:0px;
+      left: 0px;
+      margin-left: 21px;
+      h4{
+        font-size: 43px;
+        color:white;
+        left:0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 70px;
+        font-style: bold;
+        font-family: arial;
+      }
+      p{
+        color:white;
+        font-size: 17px;
+        margin-top: 0px;
+        margin-left: 70px;
+        float: left;
+        font-family: arial;
+      }
+      .weekly{
+        background-size: cover;
+        background: url('../../images/image1.png');
+        width: 190px;
+        height: 28px;
+          p{
+            font-size: 11px;
+            font-family: arial;
+            color:black;
+            margin-left: 20px;
+            margin-top: 8px;
+            transform: rotateY(-41deg);
+          }
+      }
+      h5{
+        color:#ffcc00;
+        font-size: 35px;
+        top: 50px;
+        margin-left: 90px;
+        margin-bottom: 20px;
+        font-style: bold;
+        font-family: Gotham-Bold;
+        span{
+          color:#e35175;
+          font-size: 22px;
+          text-decoration: line-through;
+          font-style: bold;
+          font-family: Gotham-Bold;
+        }
+      }
+      button{
+        border: 2px solid white;
+        background-color: inherit;
+        color:white;
+        text-transform: uppercase;
+        width: 153px;
+        height: 39px;
+        left:0px;
+        margin-left: 70px;
+        // font-style: bold;
+        font-family: arial;
+        padding-left: 17px;
+          img{
+            width: 27px;
+            height: 14px;
+            margin-left: 5px;
+            margin-bottom: 2px;
+            -webkit-filter:brightness(100%);
+          }
+      }
+      button:focus{
+        outline: none;
+      }
+    }
+  }
+  // search sectionun bashlangici
+  #search{
+      min-height: 114px;
+      width: 1100px;
+      border-radius: 5px;
+      position: absolute;
+      top: 350px;
+      z-index:1;
+      background: white;
+      padding-top: 30px;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=96, Color=#999999)";/*IE 8*/
+      -moz-box-shadow: 1px 10px 50px -9px rgba(153,153,153,0.4);/*FF 3.5+*/
+      -webkit-box-shadow: 1px 10px 50px -9px rgba(153,153,153,0.4);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+      box-shadow: 1px 10px 50px -9px rgba(153,153,153,0.4);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+      filter: progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=135, Color=#999999); /*IE 5.5-7*/
+      select:focus{
+          outline: none;
+        }
+      h5{
+        color:black;
+        font-size: 21px;
+        margin-left: 30px;
+        font-weight: 400;
+        margin-bottom: 9px;
+        margin-top: 0px;
+        width: 126px;
+        font-family:Roboto-Medium;
+      }
+      p{
+        font-size: 12px;
+        color:#555555;
+        margin-left: 30px;
+        float: left;
+        font-family: Roboto-Regular;
+      }
+      span{
+        font-size: 13px;
+        color:#555555;
+        font-family: Arial;
+      }
+      .adult{
+        width: 86px;
+        height: 45px;
+        background-color: #eeeeee;
+        border:1px solid #c1c1c1;
+        margin-top: 12px;
+        margin-bottom: 25px;
+      }
+      .select{
+        margin-top: -45px;
+        padding-left: 40px;
+        .choseCity{
+          width: 196px;
+          height: 45px;
+          background-color: #eeeeee;
+          border:1px solid #c1c1c1;
+          margin-top: 12px;
+          margin-bottom: 25px;
+        }
+        .first{
+          position: absolute;
+          top: 48px;
+          right: -7px;
+          color: #999999;
+        }
+        .second{
+          position: absolute;
+          top: 48px;
+          right: 10px;
+          color: #999999;
+        }
+        b{
+          position: absolute;
+          right: -24px;
+          top: 45px;
+          z-index: 1;
+        }
+        input{
+          width: 136px;
+          height: 45px;
+          border:1px solid #c1c1c1;
+          margin-top: 12px;
+          border-radius: 5px;
+          margin-left: 25px;
+        }input:focus{
+            outline: none;
+          }
+        button{
+          width: 155px;
+          height: 45px;
+          color:white;
+          background-color: #e35175;
+          border:none;
+          font-size: 17px;
+          font-family: Arial;
+          margin-top: 32px;
+            img{
+              padding-right: 15px;
+            }
+        }button:focus{
+            outline: none;
+          }
+      }
+  }
+  // search sectionun sonu
+
+}
+// slider sectionun sonu
+
+// info sectionun bashlangici
+#info{
+min-height: 55px;
+  .infoRow{
+    margin-top: 28px;
+    margin-bottom: 28px;
+    margin-left:170px;
+    .infoHome{
+      width: 173px;
+      height: 35px;
+      float: left;
+      border-right:1px solid #cecece;
+      margin-top: -32px;
+      h5{
+        font-family:Gotham-Book;
+        font-size: 31px;
+        float: left;
+        margin-left: 31px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 12px;
+      }
+      p{
+        font-family: Gotham-Book;
+        font-size: 12px;
+        padding-right: 9px;
+        color: #555555;
+        padding-left: 21px;
+      }
+    }
+  }
+}
+// info sectionun sonu
+
+// viewedHouses sectionun bashlangici
+#viewedHouses{
+  min-height: 1000px;
+  .row{
+    h5{
+      font-size: 17px;
+      font-family: arial;
+    }
+  }
+  a{
+    text-decoration: none;
+    .elan{
+      width: 266px;
+      height: 214px;
+      margin-bottom: 31px;
+      box-shadow: 0px 10px 20px #f3f3f3;
+        .elanImg{
+          width: 266px;
+          height: 170px;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+        }
+        .elanDesc{
+          width: 100%;
+          height: 43px;
+          background-color: white;
+          .cssarrow {
+        	position: relative;
+        	background: #ffffff;
+        }
+        .cssarrow:after {
+        	bottom: 100%;
+        	left: 22px;
+        	border: solid transparent;
+        	content: " ";
+        	height: 0;
+        	width: 0;
+        	position: absolute;
+        	pointer-events: none;
+        	border-color: rgba(136, 183, 213, 0);
+        	border-bottom-color: #ffffff;
+        	border-width: 7px;
+        	margin-left: 0px;
+        }
+
+            h6{
+              font-size: 16px;
+              font-family:Gotham-Medium;
+              margin-left: 15px;
+              margin-top: 16px;
+              color:#231f20;
+            }
+            p{
+              font-family:Calibri;
+              font-size: 13px;
+              color: #615d5e;
+              margin-top: 13px;
+              margin-right: 14px;
+            }
+        }
+    }
+  }
+  .row{
+    a{
+      text-decoration: none;
+        h5{
+          color:black;
+          font-family: arial;
+          font-size: 13px;
+          text-decoration: underline;
+        }
+    }
+  }
+  .row{
+    a{
+      text-decoration: none;
+        h3{
+          font-size: 19px;
+          font-family:Roboto-Regular;
+          color:black;
+        }
+        .lastNews{
+          background-color: white;
+          width: 342px;
+          min-height: 80px;
+          background-color: #ebeff9;
+            .lastImg{
+              width: 89px;
+              height: 60px;
+              float: left;
+              margin: 10px 15px 10px 10px;
+                img{
+                  width: 100%;
+                  height: 100%;
+                }
+            }
+            .lastDesc{
+              padding-top: 15px;
+              p{
+                font-size: 16px;
+                font-family: arial;
+                color:black;
+                margin-bottom: 0px;
+              }
+              span{
+                font-size: 10px;
+                font-family: arial;
+                color:#555555;
+              }
+            }
+        }
+    }
+  }
+}
+// viewedHouses sectionun sonu
